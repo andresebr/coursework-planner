@@ -1,0 +1,114 @@
+
+/* 
+    File: dragndrop.css
+    Created on : Mar 29, 2014, 5:55:24 PM
+    Author     : Andres E. barreto
+*/
+
+body {
+    font-family: Verdana,Arial,sans-serif;
+    color: rgb(51, 51, 51);
+    background: none repeat scroll 0% 0% rgb(243, 243, 243);
+}
+
+header {
+    width: 1366px;
+    height: 130px;
+    margin: 0 auto;
+    background-image: url('../images/header.png');
+    color: white;
+}
+
+#headerContainer {
+    background: #002244;
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 15px #000;
+}
+
+#unoLogo {
+    padding: 10px;
+}
+
+p.draggable {
+    position: relative;
+    background-color: #002244;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 180px;
+    font-size: x-small;
+    box-shadow: 0 0 5px #000;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#wrapper {
+    position: relative;
+    border: 1px solid black;
+    width: 1366px;
+    margin: 0 auto;
+    box-shadow: 0 0 15px #000;
+}
+
+#workspace {
+    position: relative;
+    margin-left: 220px;
+    height: 768px;
+    background-color: white;
+}
+
+#dropspace {
+    //margin-left: 220px;
+    position: relative;
+    height: 768px;
+    background-color: transparent;
+}
+
+#canvas {
+    position: absolute;
+    background-color: beige;
+/*    width: 1146px;
+    height: 768px;*/
+}
+
+
+#coursecontainer {
+    width: 220px;
+    height: 768px;
+    background-color: silver;
+    overflow-y: scroll;
+    float:left;
+}
+
+.clear {
+    clear: both;
+}
+
+input[type=button] {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    background: #004c99;
+    border: none;
+    width: 70px;
+    height: 25px;
+}
+
+input[type=button]:hover {
+    background: #002244;
+}
+
+#title{
+    position: relative;
+}
+
+#instructions{
+    position: relative;
+    font-size: x-small;
+    margin: 5px;
+}

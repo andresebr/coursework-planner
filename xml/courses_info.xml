@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+File: courses_info.xml
+Author: Andres E. Barreto
+NOTE: Always use the same format.
+-->
+
+
+<csci>
+    
+    <course id="csci1000">
+        <code>CSCI 1000</code>
+        <name>Introduction to Computers</name>
+        <prereq>none</prereq>
+    </course>
+    
+    <course id="csci1060">
+        <code>CSCI 1060</code>
+        <name>Introduction to Programming</name>
+        <prereq>math115</prereq>
+    </course>
+    
+    <course id="csci1201">
+        <code>CSCI 1201</code>
+        <name>Introduction to Programming in Fortran</name>
+        <prereq>math115</prereq>
+    </course>
+    
+    <course id="csci1203">
+        <code>CSCI 1203</code>
+        <name>Introduction to Programming in C</name>
+        <prereq>math115</prereq>
+    </course>
+    
+    <course id="csci1205">
+        <code>CSCI 1205</code>
+        <name>Introduction to Programming in C++</name>
+        <prereq>math115</prereq>
+    </course>
+    
+    <course id="csci1581">
+        <code>CSCI 1581</code>
+        <name>Software Design and Development I Laboratory</name>
+        <prereq>csci1538</prereq>
+    </course>
+    
+    <course id="csci1583">
+        <code>CSCI 1583</code>
+        <name>Software Design and Development I</name>
+        <prereq>math115</prereq>
+    </course>
+    
+    <course id="csci2025">
+        <code>CSCI 2025</code>
+        <name>Data Structures and Applications</name>
+        <prereq>csci1205</prereq>
+    </course>
+    
+    <course id="csci2120">
+        <code>CSCI 2120</code>
+        <name>Software Design and Development II</name>
+        <prereq>csci1583,csci1581,csci2121</prereq>
+    </course>
+    
+    <course id="csci2121">
+        <code>CSCI 2121</code>
+        <name>Software Design and Development II Laboratory</name>
+        <prereq>csci2120</prereq>
+    </course>
+    
+    <course id="csci2125">
+        <code>CSCI 2125</code>
+        <name>Data Structures</name>
+        <prereq>csci2120,csci2121</prereq>
+    </course>
+    
+    <course id="csci2450">
+        <code>CSCI 2450</code>
+        <name>Machine Structure and Assembly Language Programming</name>
+        <prereq>csci1060,csci1201,csci1203,csci1205</prereq>
+    </course>
+    
+    <course id="csci2467">
+        <code>CSCI 2467</code>
+        <name>System Programming Concepts</name>
+        <prereq>csci212,csci2450</prereq>
+    </course>
+    
+    <course id="csci3080">
+        <code>CSCI 3080</code>
+        <name>Ethics in the Computing Profession</name>
+        <prereq>csci2125</prereq>
+    </course>
+    
+    <course id="csci3090">
+        <code>CSCI 3090</code>
+        <name>Undergraduate Seminar</name>
+        <prereq>csci2125</prereq>
+    </course>
+    
+    <course id="csci3097">
+        <code>CSCI 3097</code>
+        <name>Problems in Computer Science</name>
+        <prereq>csci2467</prereq>
+    </course>
+    
+    <course id="csci3099">
+        <code>CSCI 3099</code>
+        <name>Senior Honors Thesis</name>
+        <prereq>none</prereq>
+    </course>
+    
+    <course id="math115">
+        <code>MATH 115</code>
+        <name> </name>
+        <prereq>none</prereq>
+    </course>
+</csci>

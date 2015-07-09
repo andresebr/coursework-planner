@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+File: index.html
+Author: Andres E. Barreto
+-->
+<html>
+    <head>
+        <title>CSCI Courses</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="style/dragndrop.css">
+        <script src="javascript/dragndrop.js"></script>
+    </head>
+    <body onload="getCourses()">
+        <div id="headerContainer">
+            <header>
+                <div id="unoLogo">
+                    <a href="index.html">
+                        <img src="images/unologo.png" alt="University of New Oreans" />
+                    </a>
+                </div>
+            </header>
+        </div>
+        <div id="wrapper">
+            <div id="title">
+                <h1>Computer Science Department - Available Courses</h1>
+            </div>
+
+            <div id="coursecontainer">
+
+            </div>
+            <div id="workspace">
+                <canvas id="canvas" width="1146" height="768"></canvas>
+                <div id="dropspace" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+            <div class="clear"></div>
+            <input type="button" value="Reset all" name="reset_btn" onclick="location.reload()"/>
+            <div id="instructions">
+                <h3>Instructions:</h3>
+                <p>Drag course titles to the yellow area to check the prerequisite relationships among courses. When a course has a prerequisite that is not in the yellow area it will highlighted in red.</p>  
+            </div>
+        </div>
+    </body>
+</html>
